@@ -1,0 +1,85 @@
+/* Login window */
+
+
+/* === Background === */
+.login-bg {
+    -fx-background-color: skyblue;
+}
+
+/* === Title Label === */
+.title-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.15) , 5,0,0,1 );
+}
+
+/* === Input Fields ===
+.input-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dfe6e9;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-pref-height: 45px;
+    -fx-font-size: 14px;
+    -fx-padding: 0 12 0 12;
+    -fx-text-fill: #2d3436;
+    -fx-prompt-text-fill: #95a5a6;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 3, 0, 0, 1);
+}*/
+
+.input-field:focused {
+    -fx-border-color: #0984e3;
+    -fx-background-color: #f9fbff;
+    -fx-effect: dropshadow(gaussian, rgba(9,132,227,0.3), 5, 0, 0, 2);
+}
+
+/* === Login Button === */
+.login-btn {
+    -fx-background-color: linear-gradient(to right, #6a11cb, #2575fc);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+    -fx-pref-height: 45px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 2);
+}
+
+.login-btn:hover {
+    -fx-background-color: linear-gradient(to right, #5f0fb0, #1e63d8);
+}
+
+/* === Hyperlink === */
+.hyperlink {
+    -fx-text-fill: #2980b9;
+    -fx-font-size: 13px;
+}
+.hyperlink:hover {
+    -fx-underline: true;
+}
+
+/* === "OR" Label === */
+.or-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2d3436;
+    -fx-font-weight: bold;
+}
+
+/* === Register Prompt === */
+.prompt {
+    -fx-text-fill: #2d3436;
+    -fx-font-size: 13px;
+}
+
+.prompt-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #6c5ce7;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+    -fx-font-size: 13px;
+    -fx-cursor: hand;
+}
+.prompt-button:hover {
+    -fx-text-fill: #341f97;
+}

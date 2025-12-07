@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <VBox alignment="CENTER" prefWidth="300.0" styleClass="sidebar">
+        <children>
+            <Label text="Welcome!" textFill="WHITE">
+                <font>
+                    <Font size="36.0" />
+                </font>
+            </Label>
+            <Label text="Use your account to log in" textFill="WHITE">
+                <font>
+                    <Font size="16.0" />
+                </font>
+            </Label>
+        </children>
+    </VBox>
+    <VBox alignment="CENTER" prefHeight="500.0" prefWidth="500.0" styleClass="login-panel">
+        <children>
+            <Label styleClass="title-text" text="Log In to Your Account" />
+            <VBox maxWidth="300.0" spacing="15.0">
+                <children>
+                    <Label styleClass="input-label" text="User Name" />
+                    <TextField fx:id="usernameField" promptText="Enter your name" styleClass="input-field" />
+                    <Label styleClass="input-label" text="Password" />
+                    <PasswordField fx:id="passwordField" promptText="Enter your password" styleClass="input-field" />
+                    <Button mnemonicParsing="false" styleClass="login-button" text="Log In">
+                        <VBox.margin>
+                            <Insets top="10.0" />
+                        </VBox.margin>
+                    </Button>
+                </children>
+                <padding>
+                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                </padding>
+            </VBox>
+            <HBox alignment="CENTER" spacing="5.0">
+                <children>
+                    <Label text="Don't have an account?" />
+                    <Hyperlink text="Sign Up" />
+                </children>
+                <VBox.margin>
+                    <Insets top="15.0" />
+                </VBox.margin>
+            </HBox>
+        </children>
+    </VBox>
+   <stylesheets>
+      <URL value="@styles.css" />
+      <URL value="@style2.css" />
+   </stylesheets>
+</HBox>

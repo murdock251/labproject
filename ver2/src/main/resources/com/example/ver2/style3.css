@@ -1,0 +1,45 @@
+/* 1. Main Background - Dark Green */
+.main-background {
+    -fx-background-color: #1B3B36;
+}
+
+/* 2. Input Fields - Grayish Blocks */
+.custom-field {
+    -fx-background-color: #AAB7B8;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-text-fill: #333333;
+    -fx-prompt-text-fill: #555555;
+    -fx-pref-height: 45px;
+    -fx-padding: 0 15px;
+}
+
+.custom-field:focused {
+    -fx-background-color: #99A8A9;
+}
+
+/* 3. Login Button - Mustard Yellow */
+.login-button {
+    -fx-background-color: #EAB308;
+    -fx-text-fill: #1B3B36; /* Dark text on button */
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-pref-height: 45px;
+    -fx-font-weight: bold;
+}
+
+.login-button:hover {
+    -fx-background-color: #D9A507;
+}
+
+/* 4. Footer Link - Yellow Text */
+.register-link {
+    -fx-text-fill: #EAB308;
+    -fx-underline: false;
+    -fx-border-color: transparent;
+}
+
+.register-link:hover {
+    -fx-text-fill: #FFD700;
+    -fx-underline: true;
+}

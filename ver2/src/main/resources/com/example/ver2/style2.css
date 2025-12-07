@@ -1,0 +1,81 @@
+/*
+ * 1. GLOBAL STYLES
+ * Removed custom font-family to use system default.
+ */
+.root {
+    -fx-font-size: 14px;
+}
+
+/* * 2. LAYOUT STYLES
+ */
+
+/* Left Sidebar - Light Blue Panel */
+.sidebar {
+    -fx-background-color: #2D9CDB; /* Light Blue Color from the image */
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+/* Right Login Panel */
+.login-panel {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 40;
+    -fx-alignment: center;
+}
+
+/* * 3. TYPOGRAPHY AND FIELD STYLES
+ */
+
+.title-text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 0 0 40px 0;
+}
+
+.input-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-font-size: 16px;
+}
+
+/* Rounded Text/Password Fields */
+.input-field {
+    -fx-background-color: #F4F4F4; /* Light grey background */
+    -fx-background-radius: 8;      /* Rounded corners */
+    -fx-border-color: #CCCCCC;     /* Light grey border */
+    -fx-border-radius: 8;
+    -fx-border-width: 1px;
+    -fx-padding: 10 15;
+    -fx-prompt-text-fill: #999999;
+}
+
+/* Change style when field is focused */
+.input-field:focused {
+    -fx-border-color: #2D9CDB; /* Blue border on focus */
+    -fx-effect: dropshadow(gaussian, rgba(45, 156, 219, 0.2), 5, 0.0, 0, 0);
+}
+
+/* * 4. BUTTON STYLES
+ */
+
+.login-button {
+    -fx-background-color: #2D9CDB; /* Primary blue color */
+    -fx-text-fill: white;          /* White text */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;      /* Rounded corners */
+    -fx-padding: 10 0;
+    -fx-cursor: hand;
+    -fx-pref-width: 300;           /* Match the VBox width */
+}
+
+.login-button:hover {
+    -fx-background-color: #2087C7; /* Slightly darker blue on hover */
+}
+
+.hyperlink {
+    -fx-text-fill: #2D9CDB;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+}
