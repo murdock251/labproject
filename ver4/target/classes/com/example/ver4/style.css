@@ -1,0 +1,93 @@
+ /* Login Background screen */
+
+.login-bg{
+    -fx-font-size: 15px;
+}
+
+.sidebar {
+    -fx-background-color: #2D9CDB; /* Light Blue Color */
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+.inside {
+/* Font settings */
+    -fx-font-family: "Arial";   /* Change to any font you like */
+    -fx-font-size: 16px;        /* Set font size */
+    -fx-font-weight: bold;      /* Optional: normal, bold, etc. */
+    -fx-text-fill: white;       /* Optional: text color */
+}
+.title-text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.input-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-font-size: 16px;
+}
+
+.login-panel {
+-fx-background-color: #F8F8FF;
+}
+.input-field {
+    -fx-background-color: #F4F4F4; /* Light grey background */
+    -fx-background-radius: 8;      /* Rounded corners */
+    -fx-border-color: #CCCCCC;     /* Light grey border */
+    -fx-border-radius: 8;
+    -fx-border-width: 1px;
+    -fx-padding: 10 15;
+    -fx-prompt-text-fill: #999999;
+}
+
+.input-field:focused {
+    -fx-border-color: #2D9CDB; /* Blue border on focus */
+    -fx-effect: dropshadow(gaussian, rgba(45, 156, 219, 0.2), 5, 0.0, 0, 0);
+}
+
+.login-button {
+    -fx-background-color: #2D9CDB; /* Primary blue color */
+    -fx-text-fill: white;          /* White text */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;      /* Rounded corners */
+    -fx-padding: 10 0;
+    -fx-cursor: hand;
+    -fx-pref-width: 300;           /* Match the VBox width */
+}
+
+.login-button:hover {
+    -fx-background-color: #2087C7; /* Slightly darker blue on hover */
+}
+
+.hyperlink {
+    -fx-text-fill: #2D9CDB;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+}
+
+.back-button{
+    -fx-background-color: #4CAF50;
+        -fx-text-fill: white;          /* White text */
+        -fx-font-size: 16px;
+        -fx-font-weight: bold;
+        -fx-background-radius: 8;      /* Rounded corners */
+        -fx-padding: 10 0;
+        -fx-cursor: hand;
+        -fx-pref-width: 250;
+}
+
+.register-button{
+    -fx-background-color: #2D9CDB; /* Primary blue color */
+    -fx-text-fill: white;          /* White text */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;      /* Rounded corners */
+    -fx-padding: 10 0;
+    -fx-cursor: hand;
+    -fx-pref-width: 250;
+}
+
+
+
